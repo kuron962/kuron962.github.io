@@ -1,16 +1,18 @@
 header {
   border-bottom: solid #000;
+  display: flex;
+  padding: 10px;
 }
 
 h1 {
-  margin: 16px 8px;
-  display: inline;
+  /* margin: 16px 8px; */
+  margin: 0.5rem;
+  display: inline-block;
 }
 
 .sns {
   text-align: center;
   text-decoration: none;
-  max-width: 150px;
   margin: 0.5rem;
   padding: 0.5rem 2rem;
   font-weight: bold;
@@ -18,7 +20,7 @@ h1 {
   color: #000;
   border-radius: 100vh;
   transition: 0.5s;
-  float: right;
+  /* float: right; */
 }
 
 .sns:hover {

@@ -10,25 +10,37 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
-      <h1>くろんの部屋</h1>
-      <button class="sns" onclick="location.href='https://github.com/kuron962'">
+      <h1 class="col-sm-6">くろんの部屋</h1>
+      <button
+        class="sns col-sm-2"
+        onclick="location.href='https://github.com/kuron962'"
+      >
         <i class="fa-brands fa-github"></i>
         Github
       </button>
       <button
-        class="sns"
+        class="sns col-sm-2"
         onclick="location.href='https://twitter.com/kuron_favorite?ref_src=twsrc%5Etfw'"
       >
         <i class="fa-brands fa-twitter"></i>
         Twitter
       </button>
     </header>
-    <div class="app">
-      <i class="fa-sharp fa-solid fa-book"></i>
-      <a href="https://kuron962.github.io/memo/">memo</a>
-    </div>
+
+    <main>
+      <div class="app col-10">
+        <i class="fa-sharp fa-solid fa-book"></i>
+        <a href="https://kuron962.github.io/memo/">memo</a>
+      </div>
+    </main>
   </body>
 </html>
