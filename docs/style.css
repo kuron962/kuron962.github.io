@@ -5,7 +5,6 @@ header {
 }
 
 h1 {
-  /* margin: 16px 8px; */
   margin: 0.5rem;
   display: inline-block;
 }
@@ -20,20 +19,9 @@ h1 {
   color: #000;
   border-radius: 100vh;
   transition: 0.5s;
-  /* float: right; */
 }
 
 .sns:hover {
   color: #fff;
   background: #000;
-}
-
-.app {
-  font-size: 24px;
-  margin: 16px;
-  width: 80%;
-  padding: 1rem;
-  font-weight: bold;
-  border: 2px solid #000;
-  color: #000;
 }
