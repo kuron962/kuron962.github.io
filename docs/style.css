@@ -1,27 +1,69 @@
 header {
-  border-bottom: solid #000;
   display: flex;
   padding: 10px;
+  background: linear-gradient(rgb(237, 255, 184), rgb(76, 96, 156));
+  font-family: "Kalam", cursive;
+  color: #fff;
 }
 
 h1 {
-  margin: 0.5rem;
   display: inline-block;
+  vertical-align: middle;
+}
+
+h3 {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  margin: 40px 0 10px;
+  border-left: 3px solid rgb(76, 96, 156);
+  color: rgb(76, 96, 156) !important;
+  padding: 0.25em 0.5em;
+  background: rgb(237, 255, 184);
+}
+
+.category {
+  margin: 10px;
+  font-family: "Kalam", cursive;
+  border-bottom: 2px solid;
+  color: rgb(76, 96, 156);
+}
+
+.btn {
+  float: right;
+  color: rgb(76, 96, 156) !important;
+  font-weight: bold !important;
 }
 
 .sns {
   text-align: center;
-  text-decoration: none;
   margin: 0.5rem;
   padding: 0.5rem 2rem;
   font-weight: bold;
-  border: 2px solid #000;
-  color: #000;
-  border-radius: 100vh;
+  border: 2px solid rgb(76, 96, 156);
+  color: rgb(76, 96, 156);
+  background-color: #fff;
+  border-radius: 50vh;
   transition: 0.5s;
 }
 
 .sns:hover {
   color: #fff;
-  background: #000;
+  background-color: rgb(76, 96, 156);
+  border: 2px solid #fff;
+}
+
+.card {
+  width: 320px;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Kalam", cursive;
+  background-color: rgb(76, 96, 156) !important;
+  color: #fff;
+}
+
+.card-body {
+  background-color: rgb(245, 255, 215) !important;
 }
